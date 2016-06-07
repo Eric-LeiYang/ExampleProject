@@ -31,16 +31,10 @@
     //Binding ViewModel with UI
     [self bindingViewModelWithUI];
     
-    // contentOffset will not change before the main runloop ends without queueing it, for iPad that is
+    // contentOffset
     CGRect headerFrame = CGRectMake(0, 0, self.nameLabel.frame.size.width,
                                     20+(self.descriptionTextView.bounds.origin.y+self.descriptionTextView.bounds.size.height));
-    dispatch_async(dispatch_get_main_queue(), ^{
-        // The search bar is hidden when the view becomes visible the first time
-        self.jobListTableView.tableHeaderView = [[UIView alloc] initWithFrame:headerFrame];
-    });
-    
-    
-    
+    self.jobListTableView.tableHeaderView = [[UIView alloc] initWithFrame:headerFrame];
 }
 
 - (void)didReceiveMemoryWarning {
