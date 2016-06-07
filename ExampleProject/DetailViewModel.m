@@ -12,16 +12,13 @@
 
 #pragma mark: init methods
 +(DetailViewModel *)sharedSingleton{
-    static DetailViewModel *sharedSingleton;
+    static DetailViewModel *sharedSingleton = nil;
     
-    @synchronized(self) {
-        if (!sharedSingleton) {
-            
-            //TODO:
-            sharedSingleton = [[DetailViewModel alloc] init];
-        }
-        return sharedSingleton;
-    }
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedSingleton = [[DetailViewModel alloc] init];
+    });
+    return sharedSingleton;
 }
 
 @end
