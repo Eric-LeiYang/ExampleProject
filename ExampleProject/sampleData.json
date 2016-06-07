@@ -1,0 +1,73 @@
+{
+    "id": 12,
+    "name": "Job No.1",
+    "description": "Description of jobs to be done - for Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.",
+    "jobs": [
+             {
+             "id": 247,
+             "jobShortTitle": "Barcodes",
+             "jobLongTitle": "Scan a barcode for me please.",
+             "jobType": "BARCODES",
+             },
+             {
+             "id": 256,
+             "jobShortTitle": "Touch state",
+             "jobLongTitle": "What are the dimentions of that thing?",
+             "jobType": "MEASUREMENT_WIDTH",
+             },
+             {
+             "id": 226,
+             "jobShortTitle": "Example of completed",
+             "jobLongTitle": "Take a photo of something please.",
+             "jobType": "IMAGES",
+             },
+             {
+             "id": 229,
+             "jobShortTitle": "Multiple Choice",
+             "jobLongTitle": "If you had multiple choices, what would you choose?",
+             "jobType": "MULTIPLE_CHOICE_MULTIPLE_SELECTION",
+             },
+             {
+             "id": 244,
+             "jobShortTitle": "Numeric answer",
+             "jobLongTitle": "What is the number of characters in this question?",
+             "jobType": "NUMERIC",
+             },
+             {
+             "id": 232,
+             "jobShortTitle": "Multiple Choice (one answer only)",
+             "jobLongTitle": "If you had one choices from many, what would you choose?",
+             "jobType": "MULTIPLE_CHOICE",
+             },
+             {
+             "id": 235,
+             "jobShortTitle": "Pinch zoom state",
+             "jobLongTitle": "What are the dimentions of that thing?",
+             "jobType": "MEASUREMENT_HEIGHT_DEPTH",
+             },
+             {
+             "id": 241,
+             "jobShortTitle": "Counting answer",
+             "jobLongTitle": "Count the number of items in the box.",
+             "jobType": "NUMERIC",
+             },
+             {
+             "id": 250,
+             "jobShortTitle": "Example of incompleted",
+             "jobLongTitle": "Take a photo of incompleted one please.",
+             "jobType": "IMAGES",
+             },
+             {
+             "id": 253,
+             "jobShortTitle": "New Barcode",
+             "jobLongTitle": "Scan the second barcode for me please.",
+             "jobType": "BARCODES",
+             },
+             {
+             "id": 259,
+             "jobShortTitle": "Drag state",
+             "jobLongTitle": "What are the dimentions of this thing?",
+             "jobType": "MEASUREMENT_HEIGHT",
+             }
+             ],
+}
